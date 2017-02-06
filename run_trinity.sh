@@ -5,7 +5,6 @@
 #PBS -o run.log
 #PBS -N Brockes
 
-cd /home/hpc/linss01/YuJu/Project/Brockes && free -g > memory.log
 cd /home/hpc/linss01/YuJu/Project/Brockes && \
 /home/hpc/linss01/Tools/trinityrnaseq-2.2.0/Trinity \
 --CPU 20 --max_memory 500G --seqType fq --SS_lib_type FR --KMER_SIZE 30 \
